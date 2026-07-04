@@ -1,0 +1,40 @@
+# Generated plots / images
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Generated data outputs
+*_labeled.csv
+patient_risk_results*
+output/
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
